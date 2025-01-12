@@ -7,7 +7,7 @@ You will learn how to:
 2. Run the agent locally using the Bot Framework Emulator or in the cloud using the Web Chat
 3. Add Generative AI capabilities to the agent using Semantic Kernel
 
----
+===
 
 # Prerequisites
 To perform this lab, you will need the following requirements:
@@ -22,7 +22,7 @@ If you're doing this lab at MCAPS Tech Connect, the environment is already set u
 However, you will need to download the lab files from the GitHub repository first and then provision the required resources on your Azure subscription. Let's start with the first task:
 
 1. Open the browser and navigate [to the following URL](https://github.com/microsoft/MCAPSTechConnect2024-lab214/archive/refs/heads/main.zip)
-2. Download the ZIP file to your computer and extract in the `C:\src` folder of the computer.
+2. Download the ZIP file to your computer and extract in the *C:\src* folder of the computer.
 
 The next step is to run a PowerShell script, which is going to deploy on your Azure subscription the two resources which are needed to run the lab:
 
@@ -61,4 +61,6 @@ To run the script, perform the following steps:
 
 9. Open Notepad and copy all the values from the output. You will need them later in the lab.
 
+===
 
+# Exercise 1: Create a basic agent using the Microsoft 365 Agents SDK
