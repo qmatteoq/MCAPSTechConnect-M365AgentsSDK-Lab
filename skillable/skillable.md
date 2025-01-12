@@ -50,7 +50,7 @@ To run the script, perform the following steps:
 
 6. Once the script has completed the execution, you will see a report like the following one:
 
-    ![The output of the PowerShell script](pre-script-output.png)
+    ![The output of the PowerShell script](media/pre-script-output.png)
 
 7. Open Notepad and copy all the values from the output. You will need them later in the lab.
 
