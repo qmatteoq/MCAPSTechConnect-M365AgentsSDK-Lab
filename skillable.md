@@ -22,4 +22,36 @@ If you're doing this lab at MCAPS Tech Connect, the environment is already set u
 
 1. Open the browser and navigate [to the following URL](https://github.com/microsoft/MCAPSTechConnect2024-lab214/archive/refs/heads/main.zip)
 2. Download the ZIP file to your computer and extract in the `C:\src` folder of the computer.
-3. Open the `C:\src\MCAPSTechConnect2024-lab214-main` folder in Windows Explorer, right click on an empty area and choose 
+
+The next step is to run a PowerShell script, which is going to deploy on your Azure subscription the two resources which are needed to run the lab:
+
+- An Azure Bot Service resource, with the corresponding app registration on Microsoft Entra
+- An Azure OpenAI resource
+
+To run the script, perform the following steps:
+
+1. Double click on the **scripts** folder in the extracted folder.
+2. Right click on an empty space in File Explorer and choose **Open in Terminal**.
+3. Type the following command to enable the execution of the script:
+
+    ```powershell
+    Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
+    ```
+4. Run the script by typing the following command:
+
+    ```powershell
+    .\DeployAzureBot.ps1
+    ```
+
+5. The script will ask you to log in to your Azure subscription. Use the following credentials:
+
+    - Username: +++@lab.CloudPortalCredential(User1).Username+++
+    - Password: +++@lab.CloudPortalCredential(User1).Password+++
+
+6. Once the script has completed the execution, you will see a report like the following one:
+
+    ![The output of the PowerShell script](images/pre-script-output.png)
+
+7. Open Notepad and copy all the values from the output. You will need them later in the lab.
+
+
